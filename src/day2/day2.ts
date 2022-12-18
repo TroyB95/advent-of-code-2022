@@ -1,9 +1,7 @@
 var fs = require("fs");
 
 const convertData = () => {
-  const data = fs.readFileSync(
-    "/Users/troy.budd/Projects/advent-of-code-2022/src/day2/input.txt"
-  );
+  const data = fs.readFileSync("src/day2/input.txt");
   return data
     .toString()
     .trim()
